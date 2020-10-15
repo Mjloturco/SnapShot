@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const DangerousInput = ({ input }) => {
   const [dangerousInput, setDangerous] = useState("");
-  console.log("dangerous Input", dangerousInput);
+  console.log("dangerous Input here", dangerousInput);
 
   const generateDangerous = () => {
     return {
